@@ -1,0 +1,127 @@
+.titulo{
+    
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: left;
+    background-color: rgb(215, 224, 222);
+    background-size: 100% 100%;
+
+    font-weight:bold;
+    font-family: 'Courier New', Courier, monospace;
+
+    margin-top: 0%;
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+
+    width: 100%;
+
+    position: relative;
+    
+}
+
+.inicio{
+    
+    text-decoration: navy;
+    color-scheme: rgb(96, 117, 117);
+    text-align: right;
+    align-items: center;
+    font-size: 13px;
+    color: black
+}
+
+
+.enlace-uno {
+    text-decoration: none;
+    color: black;
+}
+
+.enlace-uno:hover {
+    color: white;
+}
+
+
+.enlace-dos {
+    text-decoration: none;
+    color: black;
+}
+
+.enlace-dos:hover {
+    color: white;
+}
+
+
+.enlace-tres {
+    text-decoration: none;
+    color: black;
+}
+.enlace-tres:hover {
+    color: white;
+}
+
+
+.enlace-cuatro {
+    text-decoration: none;
+    color: black;
+}
+.enlace-cuatro:hover {
+    color: white;
+}
+
+
+.enlace-cinco {
+    text-decoration: none;
+    color: black;
+}
+.enlace-cinco:hover {
+    color: white;
+}
+
+
+.enlace-seis {
+    text-decoration: none;
+    color: black;
+}
+.enlace-seis:hover {
+    color: white;
+}
+
+
+
+.nav{
+    font-size: 20px;
+    background-color: rgb(215, 227, 227);
+}
+
+.imag{
+    font-size: 20px;
+}
+
+.contenedor-flex{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    height: none;
+    justify-content: space-around;
+}
+
+.date {
+    order: -1;
+}
+
+
+/*.section-container {
+    color: red;
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+
+} */
+
+/*.section {
+    display: flex;
+    height: 300px;
+}
+*/
