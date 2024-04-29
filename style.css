@@ -1,0 +1,56 @@
+@charset "UTF-8";
+.titulo {
+  color: black;
+  font-size: 25px;
+  text-align: left;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 0;
+  margin-top: 0;
+  position: relative;
+  padding: 10px; /* Añade relleno para separar el contenido del borde */
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad */
+  color: white; /* Color del texto */
+  padding: 20px; /* Espaciado interno */
+}
+
+.carousel-inner {
+  width: 100%; /* Ancho del 100% del contenedor padre */
+  height: 400px; /* Altura automática según el contenido */
+}
+
+.nav justify-content-end {
+  color: black;
+}
+
+.cuadro {
+  background-color: burlywood;
+}
+
+.contenedor-flex {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.date {
+  order: -1;
+}
+
+.nav-link {
+  color: red; /* Cambia el color a azul */
+}
+
+.nav-link:hover {
+  color: red; /* Cambia el color a rojo cuando el mouse está sobre el enlace */
+}/*# sourceMappingURL=style.css.map */

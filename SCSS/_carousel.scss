@@ -1,0 +1,15 @@
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    color: white; 
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  .carousel-inner {
+   width: 100%; /* Ancho del 100% del contenedor padre */
+   height: 400px; /* Altura automática según el contenido */
+    
+  }
