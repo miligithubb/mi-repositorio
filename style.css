@@ -22,8 +22,9 @@
 }
 
 .carousel-inner {
-  width: 100%; /* Ancho del 100% del contenedor padre */
-  height: 400px; /* Altura automática según el contenido */
+  width: 100%; 
+  height: 400px; 
+
 }
 
 .nav justify-content-end {
@@ -48,9 +49,20 @@
 }
 
 .nav-link {
-  color: red; /* Cambia el color a azul */
+  color: red; 
 }
 
 .nav-link:hover {
-  color: red; /* Cambia el color a rojo cuando el mouse está sobre el enlace */
-}/*# sourceMappingURL=style.css.map */
+  color: red; 
+}
+
+.container {
+  background-color: #f5deb3; /* Color crema pálido */
+}
+
+footer {
+  background-color: #333; /* Color de fondo */
+  color: #fff; /* Color del texto */
+  text-align: center; /* Alinear el texto al centro */
+  padding: 20px 0; /* Agregar relleno arriba y abajo */
+}

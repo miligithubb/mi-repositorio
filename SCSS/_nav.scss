@@ -1,13 +1,28 @@
 .nav justify-content-end {
     color: black;
-  }
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
    
+.nav-item {
+    margin-left: 20px;
+}
+
 .nav-link {
     color: blue; /* Cambia el color a azul */
+    text-decoration: none;
   }
   
 .nav-link:hover {
     color: red; /* Cambia el color a rojo cuando el mouse está sobre el enlace */
+    text-decoration: underline;
   }
   
+  .nav {
+    background-color: #f5deb3; /* Color de fondo de la barra de navegación */
+    margin: 0;
+}
+
   
